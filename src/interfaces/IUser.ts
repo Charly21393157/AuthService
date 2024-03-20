@@ -1,7 +1,8 @@
 export default interface IUser {
+    id: number
     email: string
     password: string
     name: string
-    users : IUser[]
+    user_group: String
   }
   
